@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://js.jirengu.com
+
+Copyright (c) 2017 by WatsonDu (http://js.jirengu.com/curut/4/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>JS Bin</title>
+<style id="jsbin-css">
+body{
+   margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+.profile{
+  text-align:center;
+}
+.profile .avatar{
+  width:73px;
+  height:73px;
+  border-radius:100%;
+  margin-top: 54px;
+  }
+@media (max-width:425px){
+  .profile .tags{
+    max-width: 320px;
+    margin:0 auto;
+  }
+}
+.profile .tags>span{
+  margin-top: 41px;
+  width:128px;
+  height:24px;
+  display:inline-block;
+  margin-bottom: 35px;
+}
+.summary {
+  text-align: center;
+  padding-top: 75px;
+  padding-bottom:102px;
+}
+.summary h2{
+  margin-bottom:35px;
+}
+.summary h2.yemian2{
+  display: none;
+}
+.summary h2.yemian2 >span{
+  display: inline-block;
+  min-width:150px;
+}
+@media(max-width:425px){
+  .summary h2.yemian1{
+  display: none;
+  }
+.summary h2.yemian2{
+  display: block;
+}}
+.summary p{
+  margin:19px 0;
+}
+.summary p>span{
+  background: #555;
+}
+.album h2{
+  text-align: center;
+}
+.album h3{
+  text-align: center;
+}
+.album h2>p{
+  text-align: center;
+}
+.album li{
+  margin-left:16px;
+  margin-right: 16px;
+  margin:0 auto;
+  max-width: 100%;
+}
+.album img{
+  width: 288px;
+}
+.album ul{
+  display:flex;
+  flex-wrap:wrap;
+  max-width:1000px;
+  margin:auto;
+  justify-content: center;
+  list-style:none;
+}
+@media (max-width:768px;){
+  .album ul{
+    justify-content:center;
+  }
+}
+@media (max-width:425px;){
+  .album ul{
+    justify-content:center;
+  }
+}
+
+</style>
+</head>
+<body>
+  <section class="profile">
+    <img class="avatar" src="https://ooo.0o0.ooo/2017/05/15/591938f804d27.jpg" alt="">
+    <div class="tags">
+    <span>热血</span>
+    <span>青春</span>
+    <span>战斗</span>
+    <span>自由</span>
+    </div>
+  </section>
+  <section class="summary">
+    <h2 class=yemian1>
+      <span>海贼王  我是要成为海贼王的男人</span>
+    </h2>
+    <h2 class=yemian2>
+      <span>海贼王</span>
+     <span>我是要成为海贼王的男人</span>
+    </h2>
+    <p>
+      <span>哈姆雷特说</span>
+    </p>
+    <p>
+      <span> 2B or not 2B<span>
+    </p>
+  </section>
+    <section class="album">
+      <h2></h2>
+      <ul>
+        <li>
+          <img src="https://ooo.0o0.ooo/2017/05/15/59193bfbd34d6.jpg" alt="">
+          <h3>路飞</h3>
+          <p>海贼王猪脚，拥有橡胶果实，想成为海贼王</p>
+        </li>
+        <li>
+          <img src="https://ooo.0o0.ooo/2017/05/15/59193be5d3d04.jpg" alt="">
+          <h3>索隆</h3>
+          <p>路痴，有三把剑，想成为世界第一大剑豪</p>
+        </li>
+        <li>
+          <img src="https://ooo.0o0.ooo/2017/05/15/59193a4debf7e.jpg" alt="">
+          <h3>香吉士</h3>
+          <p>爱好女，烟，会做饭的厨子一枚</p>
+        </li>
+        <li>
+          <img src="https://ooo.0o0.ooo/2017/05/15/59193a96747b5.jpg" alt="">
+          <h3>乔巴</h3>
+          <p>萌宠。兼职医生</p>
+        </li>
+        <li>
+          <img src="https://ooo.0o0.ooo/2017/05/15/59193ac69669b.jpg" alt="">
+          <h3>乌索普</h3>
+          <p>会吹牛皮，会打弹弓的长鼻子男</p>
+        </li>
+        <li>
+          <img src="https://ooo.0o0.ooo/2017/05/15/59193aea2ca0d.jpg" alt="">
+          <h3>娜美</h3>
+          <p>爱财，航海士漂亮的小姐姐</p>
+        </li>
+        <li>
+          <img src="https://ooo.0o0.ooo/2017/05/15/59193af8cd443.jpg" alt="">
+          <h3>布鲁克</h3>
+          <p>会音乐，死了好多年的鬼魂一个</p>
+        </li>
+        <li>
+          <img src="https://ooo.0o0.ooo/2017/05/15/59193b03e2e9d.jpg" alt="">
+          <h3>弗兰奇</h3>
+          <p>改造人版的大力水手</p>
+        </li>
+        <li>
+          <img src="https://ooo.0o0.ooo/2017/05/15/59193b0f366a8.jpg" alt="">
+          <h3>妮可罗宾</h3>
+          <p>女教授</p>
+        </li>
+      </ul>
+    </section>
+  </section>
+</body>
+</html>
