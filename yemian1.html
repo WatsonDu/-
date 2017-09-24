@@ -12,100 +12,7 @@ Released under the MIT license: http://jsbin.mit-license.org
 <head>
   <meta charset="utf-8">
   <title>JS Bin</title>
-<style id="jsbin-css">
-body{
-   margin:0;
-  padding:0;
-  box-sizing:border-box;
-}
-.profile{
-  text-align:center;
-}
-.profile .avatar{
-  width:73px;
-  height:73px;
-  border-radius:100%;
-  margin-top: 54px;
-  }
-@media (max-width:425px){
-  .profile .tags{
-    max-width: 320px;
-    margin:0 auto;
-  }
-}
-.profile .tags>span{
-  margin-top: 41px;
-  width:128px;
-  height:24px;
-  display:inline-block;
-  margin-bottom: 35px;
-}
-.summary {
-  text-align: center;
-  padding-top: 75px;
-  padding-bottom:102px;
-}
-.summary h2{
-  margin-bottom:35px;
-}
-.summary h2.yemian2{
-  display: none;
-}
-.summary h2.yemian2 >span{
-  display: inline-block;
-  min-width:150px;
-}
-@media(max-width:425px){
-  .summary h2.yemian1{
-  display: none;
-  }
-.summary h2.yemian2{
-  display: block;
-}}
-.summary p{
-  margin:19px 0;
-}
-.summary p>span{
-  background: #555;
-}
-.album h2{
-  text-align: center;
-}
-.album h3{
-  text-align: center;
-}
-.album h2>p{
-  text-align: center;
-}
-.album li{
-  margin-left:16px;
-  margin-right: 16px;
-  margin:0 auto;
-  max-width: 100%;
-}
-.album img{
-  width: 288px;
-}
-.album ul{
-  display:flex;
-  flex-wrap:wrap;
-  max-width:1000px;
-  margin:auto;
-  justify-content: center;
-  list-style:none;
-}
-@media (max-width:768px;){
-  .album ul{
-    justify-content:center;
-  }
-}
-@media (max-width:425px;){
-  .album ul{
-    justify-content:center;
-  }
-}
-
-</style>
+<link rel="stylesheet" href="yemian1.css">
 </head>
 <body>
   <section class="profile">
@@ -115,7 +22,6 @@ body{
     <span>青春</span>
     <span>战斗</span>
     <span>自由</span>
-    </div>
   </section>
   <section class="summary">
     <h2 class=yemian1>
@@ -133,8 +39,7 @@ body{
     </p>
   </section>
     <section class="album">
-      <h2></h2>
-      <ul>
+      <ul class="list">
         <li>
           <img src="https://ooo.0o0.ooo/2017/05/15/59193bfbd34d6.jpg" alt="">
           <h3>路飞</h3>
@@ -183,5 +88,13 @@ body{
       </ul>
     </section>
   </section>
+ <div class=loadMore>
+     <button id="loadMoreButton" class=button>加载更多</button>
+     
+  </div>
+ 
 </body>
+ 
+  <script src="yemian1.js"></script>
+
 </html>
